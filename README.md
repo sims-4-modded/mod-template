@@ -12,7 +12,7 @@ git submodule update --init
 tools\preset.bat x64-release
 ```
 
-A clone of a local repository needs `git -c protocol.file.allow=always submodule update --init`.
+Make sure to initialise and clone submodules (we need `common`): `git submodule update --init`.
 
 ## Tests
 
